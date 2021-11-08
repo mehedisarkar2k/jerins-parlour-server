@@ -35,7 +35,7 @@ server().catch(console.dir);
 
 // getting server
 app.get("/", (req, res) => {
-  console.log("Jerin Parlour's Server is running");
+  console.log("Jerin Parlour's Server is running on", port);
   res.send("Welcome to Jerins Parlour!");
 });
 
